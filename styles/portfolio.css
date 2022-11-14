@@ -1,8 +1,53 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --details-color: #ed1c6f;
+  --default-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
 h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+
+  color: var(--secondary-color);
 }
 p {
-  font-family: "Montserrat", sans-serif;
   font-weight: normal;
+}
+.hero {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.hero h3 {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+.btn-light {
+  border-radius: 50px;
+  font-family: var(--button-font-family);
+  padding: 18px 30px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #272142;
+}
+
+i {
+  color: var(--details-color);
+  font-size: 15px;
 }
