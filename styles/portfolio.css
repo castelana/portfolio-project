@@ -23,7 +23,7 @@ p {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 200px 0px;
 }
 .hero p {
   font-size: 18px;
@@ -50,4 +50,8 @@ p {
 i {
   color: var(--details-color);
   font-size: 15px;
+}
+.image-fluid {
+  max-width: 100%;
+  height: auto;
 }
