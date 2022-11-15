@@ -34,7 +34,7 @@ p {
   font-size: 24px;
   letter-spacing: 0.1em;
 }
-.btn-light {
+.btn-branding {
   border-radius: 50px;
   font-family: var(--button-font-family);
   padding: 18px 30px;
@@ -44,7 +44,12 @@ p {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.1em;
-  color: #272142;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  transition: 0.2s;
+}
+.btn-branding:hover {
+  color: var(--details-color);
 }
 
 i {
@@ -52,6 +57,6 @@ i {
   font-size: 15px;
 }
 .image-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
