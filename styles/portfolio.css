@@ -38,7 +38,7 @@ p {
   border-radius: 50px;
   font-family: var(--button-font-family);
   padding: 18px 30px;
-
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -57,6 +57,41 @@ i {
   font-size: 15px;
 }
 .image-fluid {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
+}
+.aboutMe {
+  padding: 50px;
+}
+.about {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.about h3 {
+  color: var(--details-color);
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.skillset {
+  padding: 50px;
+}
+.projects {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.myProjects {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.projects h3 {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
