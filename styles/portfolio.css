@@ -60,7 +60,8 @@ i {
   max-width: 100%;
   height: auto;
 }
-.aboutMe {
+.aboutMe,
+.myHometown {
   padding: 50px;
 }
 .about {
@@ -94,4 +95,23 @@ i {
   font-size: 24px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.certificates {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.myCertificates {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.certification-links {
+  display: flex;
+  justify-content: center;
+}
+.plus-link,
+.basic-link {
+  margin: 80px;
 }
