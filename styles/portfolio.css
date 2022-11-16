@@ -115,3 +115,21 @@ i {
 .basic-link {
   margin: 80px;
 }
+.contact {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.contact h3 {
+  color: var(--details-color);
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.contactMe {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
