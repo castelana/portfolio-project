@@ -150,4 +150,7 @@ p {
   .basic-link {
     margin: 30px;
   }
+  .weather {
+    padding: 0px;
+  }
 }
