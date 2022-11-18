@@ -134,8 +134,20 @@ p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-@media (max-width: 575.98px) {
-  .hero.h1 {
-    font-size: 32px;
+@media (max-width: 575px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .myProjects,
+  .myCertificates,
+  .contactMe {
+    font-size: 25px;
+  }
+  .plus-link,
+  .basic-link {
+    margin: 30px;
   }
 }
