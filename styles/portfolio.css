@@ -18,6 +18,11 @@ h1 {
 }
 p {
   font-weight: normal;
+  line-height: 30px;
+}
+.dot {
+  display: inline;
+  color: var(--details-color);
 }
 .hero {
   background: var(--primary-color);
@@ -52,10 +57,6 @@ p {
   color: var(--details-color);
 }
 
-i {
-  color: var(--details-color);
-  font-size: 15px;
-}
 .image-fluid {
   max-width: 100%;
   height: auto;
@@ -132,4 +133,9 @@ i {
   font-size: 50px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+@media (max-width: 575.98px) {
+  .hero.h1 {
+    font-size: 32px;
+  }
 }
