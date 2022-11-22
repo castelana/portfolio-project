@@ -97,6 +97,11 @@ p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.imgHometown {
+  max-width: 600px;
+  max-height: 500px;
+}
+
 .certificates {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -120,7 +125,8 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-.contact h3 {
+.contact h3,
+.contactDetails h3 {
   color: var(--details-color);
   font-weight: bold;
   font-size: 24px;
@@ -133,6 +139,12 @@ p {
   font-size: 50px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: 0;
+}
+.contactDetails {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
 }
 @media (max-width: 575px) {
   h1 {
