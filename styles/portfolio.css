@@ -20,6 +20,7 @@ p {
   font-weight: normal;
   line-height: 30px;
 }
+
 .dot {
   display: inline;
   color: var(--details-color);
@@ -28,7 +29,7 @@ p {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 200px 0px;
+  padding: 180px 0px;
 }
 .hero p {
   font-size: 18px;

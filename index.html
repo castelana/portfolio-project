@@ -24,6 +24,61 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#about" title="About me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#skillset" title="My skillset"
+                >Skillset</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#projects" title="My projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#certificates" title="My certificates"
+                >Certificates</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#contact" title="Contact me"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <h3 class="mb-5">HELLO, IT'S ME</h3>
 
@@ -53,7 +108,7 @@
             class="image-fluid imgDeveloper"
           />
         </div>
-        <div class="skillset">
+        <div class="skillset" id="skillset">
           <h3 class="mb-4">My skillset</h3>
           <div class="row text-md-center p-2">
             <div class="col-md-4">HTML</div>
@@ -68,7 +123,7 @@
         </div>
       </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
       <h2 class="text-center p-5 myProjects">Projects</h2>
       <div class="row m-5">
         <div class="col-md-6">
@@ -120,7 +175,7 @@
         </div>
       </div>
     </div>
-    <div class="certificates">
+    <div class="certificates" id="certificates">
       <h2 class="text-center p-5 myCertificates">certificates</h2>
       <div class="certification-links p-3">
         <a
@@ -137,7 +192,7 @@
         >
       </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h3 class="p-5 text-center">What's next</h3>
       <h2 class="text-center contactMe p-5">get in touch!</h2>
     </div>
