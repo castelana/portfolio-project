@@ -29,7 +29,7 @@ p {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 180px 0px;
+  padding: 200px 0px;
 }
 .hero p {
   font-size: 18px;
@@ -97,10 +97,6 @@ p {
   font-size: 24px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-}
-.imgHometown {
-  max-width: 600px;
-  max-height: 500px;
 }
 
 .certificates {
