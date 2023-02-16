@@ -118,7 +118,9 @@ p {
   justify-content: center;
 }
 .plus-link,
-.basic-link {
+.basic-link,
+.responsive-link,
+.react-link {
   margin: 80px;
 }
 .contact {
@@ -165,7 +167,9 @@ p {
     font-size: 25px;
   }
   .plus-link,
-  .basic-link {
+  .basic-link,
+  .responsive-link,
+  .react-link {
     margin: 30px;
   }
   .weather {
